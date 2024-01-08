@@ -1,0 +1,38 @@
+body{
+    display: block;
+    text-align: center;
+}
+
+#titleWebsite{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#generateBtn{
+    font-size: 1em;
+    font-family: Verdana;
+    color: white;
+    background-color: purple;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
+    transition: opacity  0.15s;
+    cursor: pointer;
+}
+
+#generateBtn:hover{
+    opacity: 0.8;
+}
+
+#generateBtn:active{
+    opacity: 0.5;
+}
+
+#myPassword{
+    color: white;
+    font-family: Verdana;
+    font-size: 1em;
+}
